@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 24px;
+}
+nav img{
+    width: 30px;
+}
+nav button{
+     background: #FCD535;
+     font-size: 14px;
+     border: none;
+     outline: none;
+     padding: 7px 20px;
+     border-radius: 30px;
+     cursor: pointer;
+}

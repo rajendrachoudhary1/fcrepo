@@ -1,0 +1,29 @@
+.faq{
+    background: #181A20;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+.faq h1{
+    text-align: center;
+    margin: 30px auto;
+}
+.question{
+    margin: 20px auto;
+}
+.ques {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.ans {
+    color:  #848E9C;
+}
+span {
+    transition: transform 0.1s ease-in-out;
+  }
+.rotate-icon {
+    transform: rotate(90deg);
+  }

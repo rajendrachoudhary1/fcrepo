@@ -1,0 +1,45 @@
+.benefit-container{
+    margin-top: 30px;
+    background: #181A20;
+    color: white;
+    padding: 50px;
+    border-radius: 30px;
+}
+.benefit-container h1{
+    font-size: 40px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+.benefit{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.b-left{
+    max-width: 500px;
+}
+.b-title{
+    display: inline-flex;
+    align-items: center;
+    border: 0.5px solid gray;
+    border-radius: 30px;
+    padding: 5px 15px;
+    gap: 10px;
+
+}
+.b-title img{
+    width: 20px;
+}
+.b-description{
+    margin-top: 20px;
+
+}
+.b-right{
+    width: 300px;
+    height: 200px;
+    background: #FFEB9633;
+    border-radius: 20px;
+
+}
