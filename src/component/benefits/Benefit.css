@@ -18,7 +18,8 @@
     margin-bottom: 40px;
 }
 .b-left{
-    max-width: 500px;
+    max-width: 430px;
+    margin-right: 20px;
 }
 .b-title{
     display: inline-flex;
@@ -38,8 +39,7 @@
 }
 .b-right{
     width: 300px;
-    height: 200px;
-    background: #FFEB9633;
-    border-radius: 20px;
-
+}
+.b-right img{
+    width: 100%;
 }

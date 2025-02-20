@@ -1,15 +1,7 @@
-.feature-title{
-    padding: 100px;
-    font-size: 50px;
-    color: whitesmoke;
-    text-align: center;
-    margin-top: 80px;
-}
+ 
 .features{
     display: flex;
     justify-content: space-between;
-    /* margin-top: 50px; */
-    /* border: 1px solid white; */
     padding: 20px; 
     background: #181A20;
     border-radius: 30px;

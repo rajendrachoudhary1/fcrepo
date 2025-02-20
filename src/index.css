@@ -5,26 +5,11 @@
   box-sizing: border-box;
   font-family: "Inria Serif", serif;
  }
- 
- 
  #root{
-  background: linear-gradient(to right, 
-  #222325, 
-  #222222, 
-  #2d2d2b, 
-  #30302d, 
-  #30302b, 
-  #2e2d28, 
-    #2c2e22, 
-    #292b20, 
-    #282a20, 
-    #2c2d24, 
-    #282a20);
-    /* background: linear-gradient(to right, #252525, #252525); */
-
-  /* height: 100vh; */
+  background: linear-gradient(180deg, #1a1a1a, #0d0d0d);  
   padding-bottom: 100px;
  }
+ 
  .container{
   padding-left: 15%;
   padding-right: 15%;
@@ -41,4 +26,11 @@
   border-bottom: 1px solid transparent;
   border-image: linear-gradient(to right, #3f3f3f, #FCD535, #3f3f3f);
   border-image-slice: 1;
+}
+.feature-title{
+  padding: 80px;
+  font-size: 50px;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 80px;
 }

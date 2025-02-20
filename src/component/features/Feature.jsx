@@ -6,24 +6,24 @@ import './Feature.css'
 const Feature = (props) => {
   return (
     <div className='container'>
-        <h1 className='feature-title'>Features</h1>
+         
         <div className='features'>
             <div className='feature-text'>
                   
-                <h3>{props.title}</h3>
+                <h1>{props.title}</h1>
                 <p className='feature-para'>
                   {props.info}
                 </p>
                  <div className='feature-icon'>
-                  <img src={smallicon} alt="" />
+                  <img src={props.small_icon} alt="" />
                    <p>Welcome To FounderClub</p>
                  </div>
                  <div className='feature-icon'>
-                  <img src={smallicon} alt="" />
+                  <img src={props.small_icon} alt="" />
                    <p>Welcome To FounderClub</p>
                  </div>
                  <div className='feature-icon'>
-                  <img src={smallicon} alt="" />
+                  <img src={props.small_icon} alt="" />
                    <p>Welcome To FounderClub</p>
                  </div>
 
