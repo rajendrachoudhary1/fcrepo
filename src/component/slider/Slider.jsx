@@ -1,8 +1,5 @@
  
 import React from "react";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import smallicon from "../../assets/small.png";
 import feature_img from "../../assets/Group 558.png";
 import feature_img1 from "../../assets/Group2.png";
 import feature_img2 from "../../assets/Group3.png";
@@ -13,6 +10,12 @@ import small_img3 from "../../assets/c3.png";
 import small_img4 from "../../assets/c4.png";
 import Feature from '../features/Feature'
 import "../features/Feature.css";
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+// import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 const featureinfo =[
     {
@@ -41,33 +44,25 @@ const featureinfo =[
     },
   ]
 
-const responsive = {
-  superLargeDesktop: { breakpoint: { max: 4000, min: 3000 }, items: 1 },
-  desktop: { breakpoint: { max: 3000, min: 1024 }, items: 1 },
-  tablet: { breakpoint: { max: 1024, min: 464 }, items: 1 },
-  mobile: { breakpoint: { max: 464, min: 0 }, items: 1 },
-};
-
- 
 
 const Slider = () => {
   return (
-    <Carousel responsive={responsive}>
-    <div>
-      <Feature title ={featureinfo[0].title} info = {featureinfo[0].info} small_icon={featureinfo[0].small_icon} img= {featureinfo[0].img}/>
-    </div>
-    <div>
-      <Feature title ={featureinfo[1].title} info = {featureinfo[1].info} small_icon={featureinfo[1].small_icon} img= {featureinfo[1].img}/>
-    </div>
-    <div>
-      <Feature title ={featureinfo[2].title} info = {featureinfo[2].info} small_icon={featureinfo[2].small_icon} img= {featureinfo[2].img}/>
-    </div>
-    <div>
-      <Feature title ={featureinfo[3].title} info = {featureinfo[3].info} small_icon={featureinfo[3].small_icon} img= {featureinfo[3].img}/>
-    </div>
-    
-     
-  </Carousel>
+  
+     <Swiper
+          cssMode={true}
+          navigation={true}
+          pagination={true}
+          mousewheel={true}
+          keyboard={true}
+          modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+          className="mySwiper"
+      >
+        <SwiperSlide><Feature title ={featureinfo[0].title} info = {featureinfo[0].info} small_icon={featureinfo[0].small_icon} img= {featureinfo[0].img}/></SwiperSlide>
+        <SwiperSlide> <Feature title ={featureinfo[1].title} info = {featureinfo[1].info} small_icon={featureinfo[1].small_icon} img= {featureinfo[1].img}/></SwiperSlide>
+        <SwiperSlide><Feature title ={featureinfo[2].title} info = {featureinfo[2].info} small_icon={featureinfo[2].small_icon} img= {featureinfo[2].img}/></SwiperSlide>
+        <SwiperSlide>  <Feature title ={featureinfo[3].title} info = {featureinfo[3].info} small_icon={featureinfo[3].small_icon} img= {featureinfo[3].img}/></SwiperSlide>
+       
+      </Swiper>
   );
 };
 

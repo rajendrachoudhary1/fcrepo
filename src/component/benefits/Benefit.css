@@ -46,5 +46,41 @@
     .b-right img{
         width: 200px;
     }
+}
+@media  (max-width: 700px) {
+
+    .benefit-container{
+        margin-top: 0px;
+        padding: 4px;
+    }
+    .benefit-container h1{
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .benefit{
+       
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .b-right img{
+        width: 80px;
+    }
+    .b-description{
+        margin-top: 4px;
+        font-size: 8px;
+    }
+    .b-title{
+        font-size: 10px;
+        display: inline-flex;
+        align-items: center;
+        border: 0.5px solid gray;
+        border-radius: 30px;
+        padding: 2px 5px;
+        gap: 5px;
     
+    }
+    .b-title img{
+        width: 10px;
+    }
 }
