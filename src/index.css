@@ -6,7 +6,7 @@
   font-family: "Inria Serif", serif;
  }
  #root{
-  background: linear-gradient(180deg, #1a1a1a, #0d0d0d);  
+  background: linear-gradient(180deg, #282727, #2e2e2e);  
   padding-bottom: 100px;
  }
  
@@ -23,9 +23,9 @@
    }
 }
 .underline {
-  border-bottom: 1px solid transparent;
-  border-image: linear-gradient(to right, #3f3f3f, #FCD535, #3f3f3f);
-  border-image-slice: 1;
+  border: 1px solid transparent;
+  background:  linear-gradient(to right, #4d4d4d, hsl(48, 80%, 60%), #515151);
+  height: 2px;
 }
 .feature-title{
   padding: 80px;

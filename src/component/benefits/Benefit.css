@@ -37,9 +37,14 @@
     margin-top: 20px;
 
 }
-.b-right{
+.b-right img{
     width: 300px;
 }
-.b-right img{
-    width: 100%;
+
+
+@media (max-width: 980px) {
+    .b-right img{
+        width: 200px;
+    }
+    
 }
