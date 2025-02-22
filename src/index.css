@@ -14,14 +14,6 @@
   padding-right: 15%;
   margin-top: 80px;
  }
- @media  (max-width:700px) {
-  .container{
-    padding-left: 5%;
-    padding-right: 5%;
-    margin-top: 40px;
-   }
-  
- }
 .underline {
   border: 1px solid transparent;
   background:  linear-gradient(to right, #4d4d4d, hsl(48, 80%, 60%), #515151);
@@ -34,13 +26,6 @@
   text-align: center;
   margin-top: 80px;
 }
-@media (min-width: 1700px) {
-
-  #root{
-   padding-left: 10%;
-   padding-right: 10%;
-  }
-}
 .swiper-button-prev,
 .swiper-button-next {
     color: white !important;  /* Change arrow color to white */
@@ -51,3 +36,28 @@
 .swiper-pagination-bullet {
   background: white !important;
 }
+
+@media  (max-width:700px) {
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 40px;
+   }
+  
+ }
+@media  (max-width:900px) {
+  .container{
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 40px;
+   }
+  
+ }
+@media (min-width: 1700px) {
+
+  #root{
+   padding-left: 10%;
+   padding-right: 10%;
+  }
+}
+ 

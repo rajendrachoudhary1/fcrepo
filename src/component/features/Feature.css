@@ -58,7 +58,7 @@
     }
     
 }
-/* @media  (max-width:700px) {
+@media  (max-width:700px) {
     .features{
         display: flex;
         flex-wrap: wrap;
@@ -97,4 +97,4 @@
         width: 10px;
     }
 }
-   */
+  

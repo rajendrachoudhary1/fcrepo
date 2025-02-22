@@ -39,6 +39,17 @@
 .footer-right a img{
     width: 50px;
 }
+@media (max-width:900px)  {
+    .footer-icon{
+        font-size: 10px;
+        margin-left: 0px;
+        padding: 10px;
+        
+    }
+    .f-icon-title{
+        display: none;
+       }
+}
 @media (max-width:700px) {
     .footer-left{
         padding: 10px 0px;
