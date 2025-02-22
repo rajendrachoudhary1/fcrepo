@@ -18,6 +18,7 @@
 }
  .footer-icons {
     gap: 10px;
+    display: flex;
   
  }
 .footer-icon{
@@ -37,4 +38,36 @@
 }
 .footer-right a img{
     width: 50px;
+}
+@media (max-width:700px) {
+    .footer-left{
+        padding: 10px 0px;
+   }
+   .footer-left img {
+       width: 30px;
+       margin-bottom: 10px;
+   }
+   .footer-left p{
+       font-size: 14px;
+   }
+   .footer-icon{
+       font-size: 10px;
+       margin-left: 0px;
+       padding: 6px;
+       
+   }
+   .f-icon-title{
+    display: none;
+   }
+   .footer-right{
+    display: flex;
+    flex-direction: column;
+   }
+   .footer-right h3{
+    font-size: 15px;
+   }
+   .footer-right a img{
+       width: 40px;
+   }
+    
 }
