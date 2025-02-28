@@ -20,6 +20,7 @@
 }
 .ans {
     color:  #848E9C;
+    margin-top: 5px;
 }
 span {
     transition: transform 0.1s ease-in-out;
@@ -27,7 +28,15 @@ span {
 .rotate-icon {
     transform: rotate(90deg);
   }
+  @media (min-width: 1700px) {
 
+    .ques{
+        font-size: 25px;
+    }
+    .ans{
+        font-size: 24px;
+    }
+  }
 @media (max-width: 700px) {
     .faq{
         padding: 10px;

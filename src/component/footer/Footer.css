@@ -5,6 +5,7 @@
     justify-content: space-between;
     padding-bottom: 50px;
     /* padding: 20px; */
+    
 }
 .footer-left{
      padding: 20px 0px;
@@ -38,6 +39,29 @@
 .footer-right a img{
     width: 50px;
 }
+@media (min-width: 1700px) {
+    .footer{
+        padding-top: 40px;
+    }
+
+   .footer-left p{
+    font-size: 25px;
+   }
+   .footer-left img{
+    width: 40px;
+   }
+   .footer-icons{
+    gap: 30px;
+   }
+   .footer-icon{
+    font-size: 20px;
+    gap: 10px;
+   }
+   .footer-right h3{
+    font-size: 25px;
+   }
+
+  }
 @media (max-width:900px)  {
     .footer-icon{
         font-size: 10px;

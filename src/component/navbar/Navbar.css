@@ -16,3 +16,12 @@ nav button{
      border-radius: 30px;
      cursor: pointer;
 }
+@media (min-width: 1700px) {
+
+     nav button{
+        font-size: 25px;
+     }
+     nav img{
+        width: 50px;
+     }
+  }

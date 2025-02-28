@@ -20,7 +20,7 @@
   height: 2px;
 }
 .feature-title{
-  padding: 80px;
+  padding: 20px;
   font-size: 50px;
   color: whitesmoke;
   text-align: center;
@@ -55,9 +55,9 @@
  }
 @media (min-width: 1700px) {
 
-  #root{
+  /* #root{
    padding-left: 10%;
    padding-right: 10%;
-  }
+  } */
 }
  
