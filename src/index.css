@@ -5,8 +5,12 @@
   box-sizing: border-box;
   font-family: "Inria Serif", serif;
  }
- #root{
-  background: linear-gradient(180deg, #282727, #2e2e2e);  
+ #root{  
+  background: 
+  radial-gradient(circle at 50% 50%, rgba(126, 95, 42, 0.18) 0%, rgba(0, 0, 0, 0.85) 70%), /* Bottom */
+  radial-gradient(circle at 60% 60%, rgba(200, 150, 80, 0.12) 0%, rgba(0, 0, 0, 0.85) 70%), /* Center */
+  radial-gradient(circle at 10% 15%, rgba(180, 140, 60, 0.14) 0%, rgba(0, 0, 0, 0.85) 70%), /* After Hero Section */
+  linear-gradient(rgb(23, 22, 22), rgb(27, 25, 19), rgb(21, 20, 20), black, black);
  }
  
  .container{
